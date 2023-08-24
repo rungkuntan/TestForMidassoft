@@ -29,6 +29,6 @@ function getQuestionPart(words: string[]): string[] {
   return Array.from(uniqueWordsSet);
 }
 
-const inputWords = ["BATH ROOM", "BATH SALTS", "BLOOD BATH"];
+const inputWords = ["TAN ROOM", "TAN BLACK", "BLOOD TAN"];
 const result = getQuestionPart(inputWords);
 console.log(result);
